@@ -34,6 +34,7 @@ To create flags.
 1. Navigate to feature flags from the left sidebar.
 1. Click **Create flag**.
 1. Choose given option or we can create Custom flag. Mostly, we will create custom flags.
+![](https://raw.githubusercontent.com/Promact/launchdarkly/master/src/assets/images/init-client.png?token=GHSAT0AAAAAACJ5UJ5LUVVLNYDTV6WOJPYWZMVKWFA)
 1. Enter unique name. Follow pattern, **environment.flagName**.
 **e.g.** dev.graph, production.employeeTable
 1. (Optional) You can add description of the flag.
@@ -42,9 +43,10 @@ To create flags.
 	- **Boolean:** optionally update the Name of the true and false variations.
 	- **String:** enter a **Value** for each variation, and optionally update the **Name** of each variation. To add more variations, click **+Add variation**.
 	- **Number:** enter a **Value** for each variation, and optionally update the **Name** of each variation. To add more variations, click **+Add variation**.
-	- **JSON:** enter a **Value** for each variation, and optionally update the **Name** of each variation. To add more variations, click **+Add variation**. 
+	- **JSON:** enter a **Value** for each variation, and optionally update the **Name** of each variation. To add more variations, click **+Add variation**.
 1. Click on **Advanced configuration**.
 	- Check the **SDKs using client-side ID** checkbox to designate which SDKs the flag should be available to.
+![](https://raw.githubusercontent.com/Promact/launchdarkly/master/src/assets/images/client-id.png?token=GHSAT0AAAAAACJ5UJ5K2ZIJS7A4RJ6JIVBAZMVKWCA "ClientID")
 1. Click **Create flag**.
 
 For more details you can refere the feature-flags [docs](https://docs.launchdarkly.com/home/creating-flags/feature-flags "docs").
